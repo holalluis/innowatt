@@ -25,7 +25,11 @@
 </head><body>
 
 <!--titol-->
-<h1>ICRA->innoWatt</h1>
+<h1>
+	ICRA->innoWatt
+	<img src=img/favicon.png style=width:30px>
+</h1>
+
 <p style=max-width:50em;>
 	<b>innoWatt</b> és un conjunt d'eines desenvolupades 
 	a l'àrea de Tecnologies i Avaluació de l'Institut Català de Recerca de l'Aigua (ICRA).
