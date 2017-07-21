@@ -1,4 +1,5 @@
 <!doctype html><html><head>
+	<?php include'imports.php'?>
 	<meta charset=utf-8>
 	<title>innoWatt</title>
 	<style>
@@ -28,19 +29,19 @@
 <!--taula moduls-->
 <table id=moduls>
 	<tr>
-		<th>innoWatt-&gt;<a href="smartReader.php">smartReader</a>
-		<td>Llegir la corba de potència (kW) dels comptadors intel·ligents (protocol 60870-5-102)
+		<th>innoWatt-&gt;<a href="smartReader">smartReader</a>
+		<td>Llegir la corba de potència (kW) dels comptadors intel·ligents (protocol IEC-60870-5-102)
 	</tr>
 	<tr>
-		<th>innoWatt-&gt;<a href="factura.php">factura</a>
+		<th>innoWatt-&gt;<a href="factura">factura</a>
 		<td>Calculadora de factures a partir de la corba de potència (kW)
 	</tr>
 	<tr>
-		<th>innoWatt-&gt;<a href="optimize.php">optimize</a>
+		<th>innoWatt-&gt;<a href="optimize">optimize</a>
 		<td>Servei d'optimització de la potència contractada
 	</tr>
 	<tr>
-		<th>innoWatt-&gt;<a href="cloud.php">cloud</a>
+		<th>innoWatt-&gt;<a href="cloud">cloud</a>
 		<td>Servei integrat de gestió de les dades de potència i factures online
 	</tr>
 </table>
