@@ -30,6 +30,12 @@
 	<img src=img/favicon.png style=width:30px>
 </h1>
 
+<!--status-->
+<div style=background:#eee>
+	<b>status</b>: en desenvolupament
+</div>
+
+<!--descripcio-->
 <p style=max-width:50em;>
 	<b>innoWatt</b> és un conjunt d'eines desenvolupades 
 	a l'àrea de Tecnologies i Avaluació de l'Institut Català de Recerca de l'Aigua (ICRA).
@@ -74,3 +80,5 @@
 		<a href="///www.icra.cat" target=_blank>icra.cat</a>
 	</div>
 </div>
+
+<!--fi-->
