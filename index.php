@@ -15,7 +15,7 @@
 		}
 		#moduls td{
 			color:#666;
-			padding-left:100px;
+			padding-left:50px;
 			font-size:14px;
 		}
 	</style>
@@ -29,7 +29,7 @@
 <table id=moduls>
 	<tr>
 		<th>innoWatt-&gt;<a href="smartReader.php">smartReader</a>
-		<td>Llegeix la corba de potència (kW) dels comptadors intel·ligents (protocol 60870-5-102)
+		<td>Llegir la corba de potència (kW) dels comptadors intel·ligents (protocol 60870-5-102)
 	</tr>
 	<tr>
 		<th>innoWatt-&gt;<a href="factura.php">factura</a>
