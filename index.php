@@ -4,6 +4,24 @@
 	<link rel="icon" href="img/favicon.png">
 	<meta name="description" content="innowatt">
 	<title>innoWatt</title>
+	<style>
+		a{
+			color:blue;
+		}
+		#moduls{
+			font-size:20px;
+			text-align:left;
+			font-family:monospace;
+		}
+		#moduls th{
+			font-weight:normal;
+		}
+		#moduls td{
+			color:#666;
+			padding-left:50px;
+			font-size:14px;
+		}
+	</style>
 </head><body>
 
 <!--titol-->
@@ -14,7 +32,7 @@
 	Els diferents productes permeten gestionar les dades d'energia consumida, 
 	calcular les factures i optimitzar la potència contractada.
 </p>
-<p>Productes</p>
+<p>Eines:</p>
 
 <!--taula moduls-->
 <table id=moduls>
@@ -32,7 +50,7 @@
 	</tr>
 	<tr>
 		<th>innoWatt-&gt;<a href="cloud">cloud</a>
-		<td>Servei integrat de gestió de les dades de potència i factures online
+		<td>Plataforma integrada de gestió de les dades de potència i factures online
 	</tr>
 </table>
 
@@ -52,24 +70,3 @@
 		<a href="///www.icra.cat" target=_blank>icra.cat</a>
 	</div>
 </div>
-
-</html>
-
-<style>
-	a{
-		color:blue;
-	}
-	#moduls{
-		font-size:20px;
-		text-align:left;
-		font-family:monospace;
-	}
-	#moduls th{
-		font-weight:normal;
-	}
-	#moduls td{
-		color:#666;
-		padding-left:50px;
-		font-size:14px;
-	}
-</style>
