@@ -1,0 +1,82 @@
+<!doctype html><html><head>
+	<meta charset=utf-8>
+	<title>innoWatt->optimize</title>
+	<style>
+		body { 
+			margin:0;
+			font-family:Arial;
+			background:url('img/fons.jpg');
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+		}
+		div{ margin:1em; max-width:80%; background:rgba(255,255,255,0.99); opacity:0; border-radius:0.3em; padding:1em; }
+		a{ color:#01B5F4; text-decoration:none; font-weight:bold; }
+		h1#logo{
+			background:white;
+			margin:0;
+			font-family:monospace;
+		}
+		img#icra{
+			width:100px;
+			vertical-align:middle;
+			margin:10px; 
+		}
+	</style>
+	<script>
+		function fadeIn(element,val) {
+			element.style.opacity=val
+			if(val<0.85) {
+				val+=0.1
+				setTimeout(function(){fadeIn(element,val)},60)
+			}
+		}
+		function init() {
+			//fadeIn elements of class=fadein
+			var elements=document.getElementsByClassName('fadein');
+			for(var i=0; i<elements.length; fadeIn(elements[i++],0));
+		}
+	</script>
+</head><body onload=setTimeout('init()',700)><center>
+
+<!--logo-->
+<h1 id=logo>
+	<img src="img/logo_cat.jpg" id=icra>
+	<a href=../>innoWatt</a>->optimize
+</h1>
+
+<!--did you know-->
+<h2>Ahorre en la factura eléctrica </h2>
+<h1>Optimizando la potencia contratada</h1>
+
+<!--titol-->
+<div class=fadein style=padding:0.05em;>
+	<h1 style=color:#F57F1D;padding:0.5em>optimize: optimización de la potencia contratada para empresas</h1>
+	<h3 style=font-family:monospace>Para tarifas 3.0A, 3.1A y 6</h3>
+</div>
+
+<!--video -->
+<video width="700" class=fadein style=opacity:0 type="video/mp4" autoplay loop>
+	<source src="vid/vid1.mp4">
+	Your browser does not support HTML5 video
+</video>
+
+<!--contact-->
+<div class=fadein>
+	<b>Contacto: </b>
+	<a href="mailto:lbosch@icra.cat?subject=innoWatt">Lluís Bosch</a>
+	|
+	<a href="mailto:fhill@icra.cat?subject=innoWatt">Fèlix Vinyals</a>
+	|
+	<a href="mailto:lcorominas@icra.cat?subject=innoWatt">Lluís Corominas</a>
+</div>
+
+<!--colaboran--> 
+<div class=fadein>
+	<h4>Colaboran</h4>
+	<img src="img/gencat.png">
+	<img src="img/logo_aca.png">
+	<img src="img/logo_mci.png">
+	<img src="img/logo_recerca.png">
+	<img src="img/logo_ue.png">
+	<img src="img/logo_uni.png">
+</div>

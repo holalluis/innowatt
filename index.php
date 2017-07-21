@@ -1,27 +1,10 @@
 <!doctype html><html><head>
-	<?php include'imports.php'?>
-	<meta charset=utf-8>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="img/favicon.png">
+	<meta name="description" content="innowatt">
 	<title>innoWatt</title>
-	<style>
-		a{
-			color:blue;
-		}
-		#moduls{
-			font-size:20px;
-			text-align:left;
-			font-family:monospace;
-		}
-		#moduls th{
-			font-weight:normal;
-		}
-		#moduls td{
-			color:#666;
-			padding-left:50px;
-			font-size:14px;
-		}
-	</style>
 </head><body>
-
 <!--titol-->
 <h1>ICRA->innoWatt</h1>
 <p>Productes</p>
@@ -38,7 +21,7 @@
 	</tr>
 	<tr>
 		<th>innoWatt-&gt;<a href="optimize">optimize</a>
-		<td>Servei d'optimització de la potència contractada
+		<td>Servei d'optimització de la potència contractada a partir de la corba de potència (kW) de tot un any
 	</tr>
 	<tr>
 		<th>innoWatt-&gt;<a href="cloud">cloud</a>
@@ -62,3 +45,24 @@
 		<a href="///www.icra.cat" target=_blank>icra.cat</a>
 	</div>
 </div>
+
+</html>
+
+<style>
+	a{
+		color:blue;
+	}
+	#moduls{
+		font-size:20px;
+		text-align:left;
+		font-family:monospace;
+	}
+	#moduls th{
+		font-weight:normal;
+	}
+	#moduls td{
+		color:#666;
+		padding-left:50px;
+		font-size:14px;
+	}
+</style>
