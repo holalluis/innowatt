@@ -5,8 +5,15 @@
 	<meta name="description" content="innowatt">
 	<title>innoWatt</title>
 </head><body>
+
 <!--titol-->
 <h1>ICRA->innoWatt</h1>
+<p style=max-width:50em;>
+	<b>innoWatt</b> és un conjunt d'eines desenvolupades 
+	a l'àrea de Tecnologies i Avaluació de l'Institut Català de Recerca de l'Aigua (ICRA).
+	Els diferents productes permeten gestionar les dades d'energia consumida, 
+	calcular les factures i optimitzar la potència contractada.
+</p>
 <p>Productes</p>
 
 <!--taula moduls-->
